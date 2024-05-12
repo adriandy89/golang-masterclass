@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/token"
-	"github.com/techschool/simplebank/util"
-	"github.com/techschool/simplebank/worker"
+	db "simplebank/db/sqlc"
+	"simplebank/token"
+	"simplebank/util"
+	"simplebank/worker"
 	"google.golang.org/grpc/metadata"
 )
 

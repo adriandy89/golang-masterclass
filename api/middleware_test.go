@@ -9,8 +9,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/require"
-	"github.com/techschool/simplebank/token"
-	"github.com/techschool/simplebank/util"
+	"simplebank/token"
+	"simplebank/util"
 )
 
 func addAuthorization(
